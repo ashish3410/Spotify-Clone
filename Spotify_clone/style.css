@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(239, 228, 214);
+}
+
+nav {
+    display: flex;
+    background-color: black;
+    color: white;
+    height:3.5rem;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    padding-top: .8rem;
+    margin:1rem;
+    list-style-type: none;
+}
+
+nav img {
+    height: 2rem;
+}
+#logoName{
+    margin-left: 8px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight:bolder;
+
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 76vh;
+    background-image: url("https://wallpaperaccess.com/full/1373296.jpg");
+    width:100%;
+}
+.songList{
+    background-color:transparent;
+    height:70vh;
+    width:75vh;
+}
+.bottom {
+    position: sticky;
+    text-align: center;
+    height: 9rem;
+    background-color: black;
+    color: white;
+}
+
+.seek {
+    margin-top:.8rem;
+    width: 80%;
+    cursor: pointer;
+}
+
+.mediaButtons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:3rem;
+    cursor: pointer;
+}
+#play{
+    padding: 1rem;
+}
+.song img{
+    margin-right:15px;
+    height:2rem;
+    border-radius:18px;
+
+}
+.song i{
+    font-size:1.5rem;
+    position: static;
+    right:16rem;
+    height:25px;
+    margin: right 1rem;;
+    cursor: pointer;
+}
+.song{
+    opacity:.8;
+    background-color: black;
+    color: white;
+    height:3.5rem;
+    margin: 4px;
+    padding:8px;
+    border-radius:14px;
+    padding :4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.time{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.song p{
+    margin-top:.9rem;
+}
+.time span{
+    margin-top:10px;
+    margin-left:5px;
+    text-align:center;
+}
+.songInfo{
+    margin-left:7.9rem;
+    text-align:start;
+}
+.gif{
+    padding:8px;
+    height:3rem;
+    filter: invert(1);
+}
+.searchBar{
+    position: absolute;
+    right: 0rem;
+    top: 13px;
+    border-radius: 10px;
+}

@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Spotify-Feel The Song!</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li id="logo"><img src="icon.webp" alt=""><span id="logoName">Spotify</span></li>
+            <li>Home</li>
+            <li>About</li>
+            <input class=" searchBar" typr="placeholder" value="Search" style="position: absolute;right: 0rem;top: 13px;border-radius: 10px;">
+        </ul>
+    </nav>
+    <div class="container overflow-auto">
+        <div class="songList">
+            <div id="song1" class="song">
+                <img  alt="">
+                <p class="songItem"></p>
+                <span></span>
+                <span></span>
+                <i id="0" class="fa-solid fa-circle-play songListButton"></i>
+            </div>
+            <div id="song2" class="song">
+                <img alt="">
+                <p class="songItem"></p>
+                <span></span>
+                <span></span>
+                <i id="1" class="fa-solid  fa-circle-play songListButton"></i>
+            </div>
+            <div id="song3" class="song">
+                <img alt="">
+                <p class="songItem"></p>
+                <span></span>
+                <i id="2" class="fa-solid fa-circle-play songListButton"></i>
+            </div>
+            <div id="song4" class="song">
+                <img alt="">
+                <p class="songItem"></p>
+                <span></span>
+                <i id="3" class="fa-solid fa-circle-play songListButton"></i>
+            </div>
+            <div id="song5" class="song">
+                <img  alt="">
+                <p class="songItem"></p>
+                <span></span>
+                <i id="4" class="fa-solid fa-circle-play songListButton"></i>
+            </div>
+            <div id="song6" class="song">
+                <img  alt="">
+                <p class="songItem"></p>
+                <span></span>
+                <i id="5" class="fa-solid fa-circle-play songListButton"></i>
+            </div>
+            <div id="song7" class="song">
+                <img alt="">
+                <p class="songItem"></p>
+                <span></span>
+                <i id="6" class="fa-solid fa-circle-play songListButton"></i>
+            </div>
+            <div id="song8" class="song">
+                <img alt="">
+                <p class="songItem"></p>
+                <span></span>
+                <i id="7" class="fa-solid fa-circle-play songListButton"></i>
+            </div>
+            <div id="song9" class="song">
+                <img alt="">
+                <p class="songItem"></p>
+                <span></span>
+                <i id="8" class="fa-solid fa-circle-play songListButton"></i>
+            </div>
+            <div id="song10" class="song">
+                <img alt="">
+                <p class="songItem"></p>
+                <span></span>
+                <i id="9" class="fa-solid fa-circle-play songListButton"></i>
+            </div>
+            <div id="song11" class="song">
+                <img alt="">
+                <p class="songItem"></p>
+                <span></span>
+                <i id="10" class="fa-solid fa-circle-play songListButton"></i>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="time">
+            <input class="seek" type="range" id="songProgress" value="0" />
+            <span class="timeStamp">0:00/0:00</span>
+        </div>
+        <div class="songInfo"><img class="gif" src="https://i.pinimg.com/originals/a5/5a/68/a55a685b8375807667122027d72de120.gif" alt="">Weapon 2.0 Song | Jasmine Sandlas | Street Dancer 3D</div>
+        <div class="mediaButtons">
+            <i id="previous" class="fa-solid fa-backward-step"></i>
+            <i id="play" class="fa-solid fa-circle-play"></i>
+            <i id="next" class="fa-solid fa-forward-step"></i>
+        </div>
+    </div>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    -->
+    <script src="https://kit.fontawesome.com/6bfd4ee51b.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
